@@ -16,10 +16,11 @@
             </div>
             <div class="brand uppercase md:text-4xl text-2xl font-extrabold font-serif">Businessly</div>
             <button
-                class="uppercase py-2 md:px-6 px-3 font-bold border-black border hover:bg-black hover:text-white">Subscribe</button>
+                class="uppercase py-2 md:px-6 px-3 font-bold border-black border hover:bg-black hover:text-white duration-[1s]">Subscribe</button>
         </div>
         <div class="categories max-w-[1150px] mx-auto my-5 md:block hidden">
-            <ul class="flex flex-row justify-center items-center gap-2 text-[18px] text-[#4E5167] font-semibold tracking-wide">
+            <ul
+                class="flex flex-row justify-center items-center gap-2 text-[18px] text-[#4E5167] font-semibold tracking-wide">
                 <li class="cursor-pointer px-5 py-2 hover:bg-black hover:text-white">Home</li>
                 <li class="cursor-pointer px-5 py-2 hover:bg-black hover:text-white">Technology</li>
                 <li class="cursor-pointer px-5 py-2 hover:bg-black hover:text-white">Politics</li>
@@ -34,50 +35,71 @@
     <!-- ===== Blog Section Started ====== -->
 
     <section class="blog-section md:p-[50px] p-[20px]">
-        <div class="flex flex-col md:flex-row gap-4">
+
+        <div class="flex flex-col md:flex-row gap-5">
 
             <!-- left column -->
-            <div class="">
-                <img src="../Images/business-blog-latest-news-image-1.jpg" alt="" class="w-full h-auto">
-                <div class="my-5 ml-3">
-                    <span class="bg-catBg text-white font-semibold px-[8px] py-[5px] capitalize">Stock Market</span>
-                    <h2 class="text-xl font-bold my-1">15 Shocking Elon Musk Tweets About Stock Market</h2>
-                    <div class="flex gap-[10px] font-bold">
-                        <span>akbarh</span><span>June 28, 2021</span>
+            <div class=" md:basis-[50%]">
+                <div
+                    class="bg-[url('../Images/business-blog-latest-news-image-1.jpg')] bg-center bg-cover md:h-[85vh] h-[40vh] hover:scale-105 overflow-hidden duration-[0.5s]">
+
+                    <div class="w-full h-full bg-[rgba(0,0,0,0.5)] flex flex-col justify-end items-center text-white">
+
+                        <div class="my-5 ml-3">
+                            <span class="bg-catBg text-white font-semibold px-[8px] py-[5px] capitalize">Stock
+                                Market</span>
+                            <h2 class="text-xl font-bold my-1">15 Shocking Elon Musk Tweets About Stock Market</h2>
+                            <div class="flex gap-[10px] font-bold">
+                                <span>akbarh</span><span>June 28, 2021</span>
+                            </div>
+                        </div>
+
                     </div>
+
                 </div>
             </div>
 
             <!-- right column -->
-            <div class="more-articles flex flex-col ">
+            <div class="more-articles flex flex-col md:basis-[50%]">
 
                 <!-- First article in right column -->
-                <div class="flex flex-row items-center px-5 py-3 gap-5">
-                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-latest-news-image-2.jpg" alt="" class="md:w-[250px] w-[180px] basis:[30%]">
-                    <div class="my-3 basis:[70%]">
-                        <span class="bg-catBg text-white font-semibold p-[5px_8px] capitalize md:text-[15px] text-[13px]">Technology</span>
-                        <h2 class="md:text-xl text-[17px] md:font-bold font-semibold my-1">Want a Career in Technology? Make This Your Secret Weapon</h2>
+                <div class="flex md:flex-row flex-col items-center px-5 py-3 gap-5">
+                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-latest-news-image-2.jpg"
+                        alt="" class="md:w-[250px] md:basis:[30%]">
+                    <div class="my-3 md:basis:[70%]">
+                        <span
+                            class="bg-catBg text-white font-semibold p-[5px_8px] capitalize md:text-[15px] text-[13px]">Technology</span>
+                        <h2 class="md:text-xl text-[17px] md:font-bold font-semibold my-1">Want a Career in Technology?
+                            Make This Your Secret Weapon</h2>
                         <span class="md:text-[15px] text-[13px]">June 28, 2021</span>
                     </div>
                 </div>
 
                 <!-- Second article in right column -->
-                <div class="flex flex-row items-center px-5 py-3 gap-5">
-                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-latest-news-image-2.jpg" alt="" class="md:w-[250px] w-[180px] basis:[30%]"">
-                    <div class="my-3 basis:[70%]"">
-                        <span class="bg-catBg text-white font-semibold p-[5px_8px] capitalize md:text-[15px] text-[13px]">Technology</span>
-                        <h2 class="md:text-xl text-[17px] md:font-bold font-semibold my-1">Want a Career in Technology? Make This Your Secret Weapon</h2>
+                <div class="flex md:flex-row flex-col items-center px-5 py-3 gap-5">
+                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-latest-news-image-2.jpg"
+                        alt="" class="md:w-[250px] md:basis:[30%]">
+                    <div class="my-3 md:basis:[70%]">
+                        <span
+                            class="bg-catBg text-white font-semibold p-[5px_8px] capitalize md:text-[15px] text-[13px]">Technology</span>
+                        <h2 class="md:text-xl text-[17px] md:font-bold font-semibold my-1">Want a Career in Technology?
+                            Make
+                            This Your Secret Weapon</h2>
                         <span class="md:text-[15px] text-[13px]">June 28, 2021</span>
                     </div>
                 </div>
 
 
                 <!-- Third article in right column -->
-                <div class="flex flex-row items-center px-5 py-3 gap-5">
-                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-latest-news-image-2.jpg" alt="" class="md:w-[250px] w-[180px] basis:[30%]">
-                    <div class="my-3 basis:[70%]"">
-                        <span class="bg-catBg text-white font-semibold p-[5px_8px] capitalize md:text-[15px] text-[13px]">Technology</span>
-                        <h2 class="md:text-xl text-[17px] md:font-bold font-semibold my-1">Want a Career in Technology? Make This Your Secret Weapon</h2>
+                <div class="flex md:flex-row flex-col items-center px-5 py-3 gap-5">
+                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-latest-news-image-2.jpg"
+                        alt="" class="md:w-[250px] md:basis:[30%]">
+                    <div class="my-3 md:basis:[70%]">
+                        <span class=" bg-catBg text-white font-semibold p-[5px_8px] capitalize md:text-[15px]
+                    text-[13px]">Technology</span>
+                        <h2 class="md:text-xl text-[17px] md:font-bold font-semibold my-1">Want a Career in Technology?
+                            Make
+                            This Your Secret Weapon</h2>
                         <span class="md:text-[15px] text-[13px]">June 28, 2021</span>
                     </div>
                 </div>
@@ -91,6 +113,360 @@
 
     <!-- ===== Blog Section Started ====== -->
 
+    <section class="md:px-[50px] px-[20px] py-[20px]">
+
+        <!-- First row  -->
+
+        <div class="grid md:grid-cols-5 grid-cols-2 md:gap-[10px] gap-[30px_10px]">
+
+            <div class="flex flex-col gap-[5px]">
+                <p>Editors Pick | Politics</p>
+                <h3 class="text-[18px] font-bold">The Frightening Affect of Climate Change on Government</h3>
+            </div>
+
+            <div class="flex flex-col gap-[5px]">
+                <p>Editors Pick | Politics</p>
+                <h3 class="text-[18px] font-bold">The Frightening Affect of Climate Change on Government</h3>
+            </div>
+
+            <div class="flex flex-col gap-[5px]">
+                <p>Editors Pick | Politics</p>
+                <h3 class="text-[18px] font-bold">The Frightening Affect of Climate Change on Government</h3>
+            </div>
+
+            <div class="flex flex-col gap-[5px]">
+                <p>Editors Pick | Politics</p>
+                <h3 class="text-[18px] font-bold">The Frightening Affect of Climate Change on Government</h3>
+            </div>
+
+            <div class="flex flex-col gap-[5px]">
+                <p>Editors Pick | Politics</p>
+                <h3 class="text-[18px] font-bold">The Frightening Affect of Climate Change on Government</h3>
+            </div>
+
+        </div>
+        <!-- First row ends -->
+
+        <!-- =====Second Row ==== -->
+
+        <div class="flex lg:flex-row flex-col py-[60px] justify-center items-center gap-[40px]">
+
+            <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/07/business-blog-wide-promo-banner.jpg"
+                alt=".." class="lg:basis-[65%]">
+
+            <div class="basis-[35%] flex flex-col justify-center items-start gap-[12px]">
+                <h3 class="text-[25px] font-bold capitalize">Subscribe To Our Newsletter</h3>
+                <p>Egestas eu molestie lacus, rhoncus, gravida aliquet sociis vulputate faucibus tristique odio</p>
+                <div class="flex flex-row gap-[15px] md:justify-start justify-center items-center">
+                    <input type="email" placeholder="Email" class="border-solid border-[2px] border-grey px-3 py-3">
+                    <button class="border-solid border-[2px] border-black px-6 py-3 hover:bg-black hover:text-white duration-[1s]">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- =====Second Row Ends==== -->
+
+    </section>
+
+    <!-- ===== Articles From Categories ===== -->
+
+    <section class="md:px-[50px] px-[20px] py-[20px]">
+
+        <!-- Stock Market -->
+        <div class="mt-[70px]">
+            <h2 class="capitalize md:text-3xl text-2xl font-extrabold font-serif">Stock Market</h2>
+
+            <!-- Row starts -->
+
+            <div class="grid md:grid-cols-3 grid-cols-1 md:gap-[20px] gap-[30px] py-[40px]">
+
+                <!-- Article 1  -->
+                <div>
+                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-stock-market-news-image-1.jpg"
+                        alt="">
+                    <!-- Content  -->
+                    <div class="flex flex-col gap-[5px] ">
+                        <span class="text-blue-800 capitalize text-[14px] pt-3">Stock Market</span>
+                        <h3 class="text-[25px] font-bold capitalize font-serif">What Your Relationship With Stock Market
+                            Says About You</h3>
+                        <p class="flex flex-row gap-[30px] text-catBg">
+                            <span>akbarh</span>
+                            <span>June 28, 2021</span>
+                        </p>
+                        <p class="text-catBg text-[18px]">Cursus iaculis etiam in In nullam donec sem sed consequat
+                            scelerisque nibh amet, massa egestas risus, gravida vel amet, imperdiet ...</p>
+                    </div>
+                </div>
+
+                <!-- Article 2  -->
+                <div>
+                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-stock-market-news-image-2.jpg"
+                        alt="">
+                    <!-- Content  -->
+                    <div class="flex flex-col gap-[5px] ">
+                        <span class="text-blue-800 capitalize text-[14px] pt-3">Stock Market</span>
+                        <h3 class="text-[25px] font-bold capitalize font-serif">How I Learned to Stop Worrying and Love
+                            Stock Market</h3>
+                        <p class="flex flex-row gap-[30px] text-catBg">
+                            <span>akbarh</span>
+                            <span>June 28, 2021</span>
+                        </p>
+                        <p class="text-catBg text-[18px]">Cursus iaculis etiam in In nullam donec sem sed consequat
+                            scelerisque nibh amet, massa egestas risus, gravida vel amet, imperdiet ...</p>
+                    </div>
+                </div>
+
+                <!-- Article 3  -->
+                <div>
+                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-stock-market-news-image-3.jpg"
+                        alt="">
+                    <!-- Content  -->
+                    <div class="flex flex-col gap-[5px] ">
+                        <span class="text-blue-800 capitalize text-[14px] pt-3">Stock Market</span>
+                        <h3 class="text-[25px] font-bold capitalize font-serif">Why Stock Market Affects Men and Women
+                            Differently</h3>
+                        <p class="flex flex-row gap-[30px] text-catBg">
+                            <span>akbarh</span>
+                            <span>June 28, 2021</span>
+                        </p>
+                        <p class="text-catBg text-[18px]">Cursus iaculis etiam in In nullam donec sem sed consequat
+                            scelerisque nibh amet, massa egestas risus, gravida vel amet, imperdiet ...</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="border-1 border-black my-5 max-w-[99%] mx-auto">
+
+            <!-- Row Ends -->
+        </div>
+
+        <!-- =============Stock MarketEnds================== -->
+
+        <!-- ------------------------------------------------------------ -->
+
+        <!--  ============= Latest Technology Starts=========== -->
+
+        <div class="mt-[70px]">
+
+            <div class="flex flex-row justify-between items-center">
+                <h2 class="capitalize md:text-3xl text-2xl font-extrabold font-serif">Latest Technology</h2>
+                <p class="text-[16px] font-semibold flex flex-row gap-[8px] items-center">View All <i
+                        class="fa-solid fa-arrow-right-long"></i></p>
+            </div>
+
+
+            <!-- Row starts -->
+
+            <div class="grid md:grid-cols-2 md:gap-0 grid-cols-1 gap-[30px] py-[40px]">
+
+                <!-- Article 1  -->
+                <div
+                    class="bg-[url('https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-latest-technology-news-image-1.jpg')] bg-cover bg-center h-[60vh]">
+
+                    <div class="w-full h-full bg-[rgba(0,0,0,.5)] p-[20px] flex flex-col justify-end items-center ">
+
+                        <!-- Content  -->
+                        <div class="flex flex-col gap-[5px] text-white">
+                            <span class="capitalize text-[14px] pt-3">Stock Market</span>
+                            <h3 class="text-[25px] font-bold capitalize font-serif">Why Stock Market Affects Men and
+                                Women
+                                Differently</h3>
+                            <p class="flex flex-row gap-[30px]">
+                                <span>akbarh</span>
+                                <span>June 28, 2021</span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Article 2 -->
+                <div
+                    class="bg-[url('https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-latest-technology-news-image-2.jpg')] bg-cover bg-center h-[60vh]">
+
+                    <div class="w-full h-full bg-[rgba(0,0,0,.5)] p-[20px] flex flex-col justify-end items-center">
+
+                        <!-- Content  -->
+                        <div class="flex flex-col gap-[5px] text-white">
+                            <span class="capitalize text-[14px] pt-3">Stock Market</span>
+                            <h3 class="text-[25px] font-bold capitalize font-serif">Technology Changed My Life. Here’s
+                                My
+                                Story</h3>
+                            <p class="flex flex-row gap-[30px]">
+                                <span>akbarh</span>
+                                <span>June 28, 2021</span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr class="border-1 border-black my-5 max-w-[99%] mx-auto">
+
+            <!-- Row Ends -->
+        </div>
+
+        <!--========== Latest Technology Ends=========== -->
+
+
+        <!--============ Politics starts============ -->
+        <div class="mt-[70px]">
+            <h2 class="capitalize md:text-3xl text-2xl font-extrabold font-serif">Politics</h2>
+
+            <!-- Row starts -->
+
+            <div class="grid md:grid-cols-3 grid-cols-1 md:gap-[20px] gap-[30px] py-[40px]">
+
+                <!-- Article 1  -->
+                <div>
+                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-politic-news-image-1.jpg"
+                        alt="">
+                    <!-- Content  -->
+                    <div class="flex flex-col gap-[5px] ">
+                        <span class="text-blue-800 capitalize text-[14px] pt-3">Politics</span>
+                        <h3 class="text-[25px] font-bold capitalize font-serif">What Your Relationship With Stock Market
+                            Says About You</h3>
+                        <p class="flex flex-row gap-[30px] text-catBg">
+                            <span>akbarh</span>
+                            <span>June 28, 2021</span>
+                        </p>
+                        <p class="text-catBg text-[18px]">Cursus iaculis etiam in In nullam donec sem sed consequat
+                            scelerisque nibh amet, massa egestas risus, gravida vel amet, imperdiet ...</p>
+                    </div>
+                </div>
+
+                <!-- Article 2  -->
+                <div>
+                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-politic-news-image-2.jpg"
+                        alt="">
+                    <!-- Content  -->
+                    <div class="flex flex-col gap-[5px] ">
+                        <span class="text-blue-800 capitalize text-[14px] pt-3">Politics</span>
+                        <h3 class="text-[25px] font-bold capitalize font-serif">What Politics Says About Your Personal
+                            Style</h3>
+                        <p class="flex flex-row gap-[30px] text-catBg">
+                            <span>akbarh</span>
+                            <span>June 28, 2021</span>
+                        </p>
+                        <p class="text-catBg text-[18px]">Cursus iaculis etiam in In nullam donec sem sed consequat
+                            scelerisque nibh amet, massa egestas risus, gravida vel amet, imperdiet ...</p>
+                    </div>
+                </div>
+
+                <!-- Article 3  -->
+                <div>
+                    <img src="https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-politic-news-image-3.jpg"
+                        alt="">
+                    <!-- Content  -->
+                    <div class="flex flex-col gap-[5px] ">
+                        <span class="text-blue-800 capitalize text-[14px] pt-3">Politics</span>
+                        <h3 class="text-[25px] font-bold capitalize font-serif">8 Surprising Ways Politics Can Affect
+                            You</h3>
+                        <p class="flex flex-row gap-[30px] text-catBg">
+                            <span>akbarh</span>
+                            <span>June 28, 2021</span>
+                        </p>
+                        <p class="text-catBg text-[18px]">Cursus iaculis etiam in In nullam donec sem sed consequat
+                            scelerisque nibh amet, massa egestas risus, gravida vel amet, imperdiet ...</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="border-1 border-black my-5 max-w-[95%] mx-auto">
+
+            <!-- Row Ends -->
+        </div>
+        <!--  Politics Section Ends -->
+
+        <!--  ============= Guest Post Starts =========== -->
+
+        <div class="mt-[70px]">
+
+            <div class="flex flex-row justify-between items-center">
+                <h2 class="capitalize md:text-3xl text-2xl font-extrabold font-serif">Latest Technology</h2>
+                <p class="text-[16px] font-semibold flex flex-row gap-[8px] items-center">View All <i
+                        class="fa-solid fa-arrow-right-long"></i></p>
+            </div>
+
+
+            <!-- Row starts -->
+
+            <div class="grid md:grid-cols-2 md:gap-0 grid-cols-1 gap-[30px] py-[40px]">
+
+                <!-- Article 1  -->
+                <div
+                    class="bg-[url('https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-guest-posts-image-1.jpg')] bg-cover bg-center h-[60vh]">
+
+                    <div class="w-full h-full bg-[rgba(0,0,0,.5)] p-[20px] flex flex-col justify-end items-center ">
+
+                        <!-- Content  -->
+                        <div class="flex flex-col gap-[5px] text-white">
+                            <span class="capitalize text-[14px] pt-3">Guest Post | Health</span>
+                            <h3 class="text-[25px] font-bold capitalize font-serif">How Health Businesses Can Survive in
+                                a Post Coronaconomy</h3>
+                            <p class="flex flex-row gap-[30px]">
+                                <span>akbarh</span>
+                                <span>June 28, 2021</span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Article 2 -->
+                <div
+                    class="bg-[url('https://websitedemos.net/business-blog-04/wp-content/uploads/sites/895/2021/06/business-blog-guest-posts-image-2.jpg')] bg-cover bg-center h-[60vh] ">
+
+                    <div class="w-full h-full bg-[rgba(0,0,0,.5)] p-[20px] flex flex-col justify-end items-center ">
+
+                        <!-- Content  -->
+                        <div class="flex flex-col gap-[5px] text-white">
+                            <span class="capitalize text-[14px] pt-3">Guest Post | Stock Market</span>
+                            <h3 class="text-[25px] font-bold capitalize font-serif">Fact Check: 12 Common Misconceptions
+                                About Stock Market</h3>
+                            <p class="flex flex-row gap-[30px]">
+                                <span>akbarh</span>
+                                <span>June 28, 2021</span>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="flex md:flex-row flex-col md:justify-between items-center justify-center mt-[30px] gap-[30px]">
+
+                <div class="flex md:flex-row flex-col gap-[20px] items-center">
+                    <div class="icon border-[4px] border-black p-5 text-center w-[85px] rounded-full">
+                        <i class="fa-regular fa-newspaper text-[40px]"></i>
+                    </div>
+                   
+                    <div>
+                        <h3 class="text-[25px] font-bold capitalize">Your posts will be the next</h3>
+                        <p class="text-[18px] text-catBg">Egestas suspendisse bibendum tempus cursus pulvinar eget odio ultricies augue.</p>
+                    </div>
+                </div>
+                <button class="border-[2px] border-black border-[solid] p-[10px_40px] capitalize font-semibold text-[18px] hover:bg-black  hover:text-white duration-[1s]">Be A Guest Author</button>
+            </div>
+    
+
+            <!-- Row Ends -->
+        </div>
+
+        <!--========== Guest Post Ends=========== -->
+
+        
+
+    </section>
 
 </body>
 
