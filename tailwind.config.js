@@ -6,6 +6,9 @@ module.exports = {
       colors:{
         bg: '#F7F7F8',
         catBg:'#45485F',
+      },
+      screens:{
+        xsm:'500px',
       }
     },
   },
